@@ -122,7 +122,7 @@
             // txt_Number
             // 
             this.txt_Number.Location = new System.Drawing.Point(46, 82);
-            this.txt_Number.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Number.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Number.Name = "txt_Number";
             this.txt_Number.Size = new System.Drawing.Size(132, 22);
             this.txt_Number.TabIndex = 4;
@@ -130,7 +130,7 @@
             // txt_Sku
             // 
             this.txt_Sku.Location = new System.Drawing.Point(534, 84);
-            this.txt_Sku.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Sku.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Sku.Name = "txt_Sku";
             this.txt_Sku.Size = new System.Drawing.Size(132, 22);
             this.txt_Sku.TabIndex = 6;
@@ -138,7 +138,7 @@
             // txt_itemName
             // 
             this.txt_itemName.Location = new System.Drawing.Point(87, 163);
-            this.txt_itemName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_itemName.Margin = new System.Windows.Forms.Padding(4);
             this.txt_itemName.Name = "txt_itemName";
             this.txt_itemName.Size = new System.Drawing.Size(675, 22);
             this.txt_itemName.TabIndex = 7;
@@ -146,7 +146,7 @@
             // txt_qty
             // 
             this.txt_qty.Location = new System.Drawing.Point(104, 230);
-            this.txt_qty.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_qty.Margin = new System.Windows.Forms.Padding(4);
             this.txt_qty.Name = "txt_qty";
             this.txt_qty.Size = new System.Drawing.Size(132, 22);
             this.txt_qty.TabIndex = 8;
@@ -154,7 +154,7 @@
             // txt_price
             // 
             this.txt_price.Location = new System.Drawing.Point(267, 230);
-            this.txt_price.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_price.Margin = new System.Windows.Forms.Padding(4);
             this.txt_price.Name = "txt_price";
             this.txt_price.Size = new System.Drawing.Size(132, 22);
             this.txt_price.TabIndex = 9;
@@ -182,7 +182,7 @@
             // btn_Add
             // 
             this.btn_Add.Location = new System.Drawing.Point(465, 224);
-            this.btn_Add.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Add.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Add.Name = "btn_Add";
             this.btn_Add.Size = new System.Drawing.Size(100, 28);
             this.btn_Add.TabIndex = 12;
@@ -194,7 +194,7 @@
             // 
             this.btn_cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btn_cancel.Location = new System.Drawing.Point(621, 224);
-            this.btn_cancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_cancel.Margin = new System.Windows.Forms.Padding(4);
             this.btn_cancel.Name = "btn_cancel";
             this.btn_cancel.Size = new System.Drawing.Size(100, 28);
             this.btn_cancel.TabIndex = 13;
@@ -205,7 +205,7 @@
             // dtp
             // 
             this.dtp.Location = new System.Drawing.Point(221, 82);
-            this.dtp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtp.Margin = new System.Windows.Forms.Padding(4);
             this.dtp.Name = "dtp";
             this.dtp.Size = new System.Drawing.Size(265, 22);
             this.dtp.TabIndex = 14;
@@ -215,7 +215,7 @@
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(-4, 277);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(1276, 290);
@@ -229,7 +229,7 @@
             // 
             this.cb_avb.AutoSize = true;
             this.cb_avb.Location = new System.Drawing.Point(745, 82);
-            this.cb_avb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cb_avb.Margin = new System.Windows.Forms.Padding(4);
             this.cb_avb.Name = "cb_avb";
             this.cb_avb.Size = new System.Drawing.Size(112, 20);
             this.cb_avb.TabIndex = 16;
@@ -244,7 +244,7 @@
             "ISEXPENSIVE",
             "ISIMPORTTEM"});
             this.checkedListBox1.Location = new System.Drawing.Point(924, 130);
-            this.checkedListBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkedListBox1.Margin = new System.Windows.Forms.Padding(4);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(159, 55);
             this.checkedListBox1.TabIndex = 17;
@@ -252,7 +252,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(959, 228);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 18;
@@ -264,7 +264,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(809, 193);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(70, 20);
             this.radioButton1.TabIndex = 19;
@@ -276,7 +276,7 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(809, 228);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(79, 20);
             this.radioButton2.TabIndex = 20;
@@ -301,9 +301,9 @@
             this.groupBox1.Controls.Add(this.radioButton4);
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Location = new System.Drawing.Point(1073, 120);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(199, 111);
             this.groupBox1.TabIndex = 22;
             this.groupBox1.TabStop = false;
@@ -313,7 +313,7 @@
             // 
             this.radioButton5.AutoSize = true;
             this.radioButton5.Location = new System.Drawing.Point(24, 81);
-            this.radioButton5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton5.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(59, 20);
             this.radioButton5.TabIndex = 2;
@@ -325,7 +325,7 @@
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.Location = new System.Drawing.Point(24, 51);
-            this.radioButton4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(70, 20);
             this.radioButton4.TabIndex = 1;
@@ -337,7 +337,7 @@
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(24, 23);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(150, 20);
             this.radioButton3.TabIndex = 0;
@@ -367,7 +367,6 @@
             // 
             // lbl_search
             // 
-            this.lbl_search.Image = global::CS223_LabSession_4.Properties.Resources.icon;
             this.lbl_search.Location = new System.Drawing.Point(264, 4);
             this.lbl_search.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_search.Name = "lbl_search";
@@ -378,7 +377,7 @@
             // tb_srch
             // 
             this.tb_srch.Location = new System.Drawing.Point(47, 4);
-            this.tb_srch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tb_srch.Margin = new System.Windows.Forms.Padding(4);
             this.tb_srch.Name = "tb_srch";
             this.tb_srch.Size = new System.Drawing.Size(205, 22);
             this.tb_srch.TabIndex = 26;
@@ -387,7 +386,7 @@
             // btn_srch
             // 
             this.btn_srch.Location = new System.Drawing.Point(1073, 48);
-            this.btn_srch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_srch.Margin = new System.Windows.Forms.Padding(4);
             this.btn_srch.Name = "btn_srch";
             this.btn_srch.Size = new System.Drawing.Size(100, 28);
             this.btn_srch.TabIndex = 27;
@@ -400,9 +399,9 @@
             this.groupBox2.Controls.Add(this.pictureBox1);
             this.groupBox2.Controls.Add(this.tb_srch);
             this.groupBox2.Location = new System.Drawing.Point(1012, 0);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(260, 28);
             this.groupBox2.TabIndex = 28;
             this.groupBox2.TabStop = false;
@@ -411,7 +410,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(8, 4);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(39, 25);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -465,7 +464,7 @@
             this.Controls.Add(this.lbl_sku);
             this.Controls.Add(this.lbl_date);
             this.Controls.Add(this.lbl_number);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form2";
             this.Text = "FILL IT";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
