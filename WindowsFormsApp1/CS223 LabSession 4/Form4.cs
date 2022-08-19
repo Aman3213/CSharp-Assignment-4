@@ -40,5 +40,15 @@ namespace CS223_LabSession_4
             this.BackColor = Color.Green;
             Pnl_indicator.Top=149;
         }
+
+        private void carD21_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void card1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -158,6 +158,7 @@
             this.txt_price.Name = "txt_price";
             this.txt_price.Size = new System.Drawing.Size(132, 22);
             this.txt_price.TabIndex = 9;
+            this.txt_price.TextChanged += new System.EventHandler(this.txt_price_TextChanged);
             // 
             // lbl_qty
             // 
@@ -178,6 +179,7 @@
             this.lbl_price.Size = new System.Drawing.Size(38, 16);
             this.lbl_price.TabIndex = 11;
             this.lbl_price.Text = "Price";
+            this.lbl_price.Click += new System.EventHandler(this.lbl_price_Click);
             // 
             // btn_Add
             // 

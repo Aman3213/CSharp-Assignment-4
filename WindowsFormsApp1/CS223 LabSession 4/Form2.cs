@@ -159,5 +159,15 @@ namespace CS223_LabSession_4
             Display d = new Display();
             d.Show();
                                }
+
+        private void txt_price_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_price_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

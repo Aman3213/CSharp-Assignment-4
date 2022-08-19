@@ -28,5 +28,10 @@ namespace CS223_LabSession_4
                 flowLayoutPanel1.Controls.Add(c);
             }
         }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

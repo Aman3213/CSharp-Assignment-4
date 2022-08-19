@@ -36,9 +36,10 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(17, 19);
+            this.label1.Location = new System.Drawing.Point(23, 23);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(157, 23);
+            this.label1.Size = new System.Drawing.Size(209, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "CARD";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -47,9 +48,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(62, 63);
+            this.label2.Location = new System.Drawing.Point(83, 78);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 24);
+            this.label2.Size = new System.Drawing.Size(82, 29);
             this.label2.TabIndex = 1;
             this.label2.Text = "NAME";
             // 
@@ -57,21 +59,24 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(62, 98);
+            this.label3.Location = new System.Drawing.Point(83, 121);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 24);
+            this.label3.Size = new System.Drawing.Size(62, 29);
             this.label3.TabIndex = 2;
             this.label3.Text = "AGE";
             // 
             // Card
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Card";
-            this.Size = new System.Drawing.Size(222, 150);
+            this.Size = new System.Drawing.Size(296, 185);
+            this.Load += new System.EventHandler(this.Card_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

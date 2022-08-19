@@ -103,6 +103,12 @@
     <Compile Include="Item.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TableLayout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableLayout.Designer.cs">
+      <DependentUpon>TableLayout.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Card.resx">
       <DependentUpon>Card.cs</DependentUpon>
     </EmbeddedResource>
@@ -140,6 +146,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TableLayout.resx">
+      <DependentUpon>TableLayout.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

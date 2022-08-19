@@ -27,5 +27,10 @@ namespace CS223_LabSession_4
         {
             InitializeComponent();
         }
+
+        private void Card_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -71,6 +71,11 @@ namespace CS223_LabSession_4
             else
                 MessageBox.Show("Sorry Item not found!");
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     } 
     }
 
