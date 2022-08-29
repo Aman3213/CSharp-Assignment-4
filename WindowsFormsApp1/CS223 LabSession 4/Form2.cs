@@ -169,5 +169,10 @@ namespace CS223_LabSession_4
         {
 
         }
+
+        private void txt_Sku_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -68,7 +68,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -106,7 +105,7 @@
             // lbl_itemName
             // 
             this.lbl_itemName.AutoSize = true;
-            this.lbl_itemName.Location = new System.Drawing.Point(84, 133);
+            this.lbl_itemName.Location = new System.Drawing.Point(43, 130);
             this.lbl_itemName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_itemName.Name = "lbl_itemName";
             this.lbl_itemName.Size = new System.Drawing.Size(72, 16);
@@ -134,10 +133,11 @@
             this.txt_Sku.Name = "txt_Sku";
             this.txt_Sku.Size = new System.Drawing.Size(132, 22);
             this.txt_Sku.TabIndex = 6;
+            this.txt_Sku.TextChanged += new System.EventHandler(this.txt_Sku_TextChanged);
             // 
             // txt_itemName
             // 
-            this.txt_itemName.Location = new System.Drawing.Point(87, 163);
+            this.txt_itemName.Location = new System.Drawing.Point(46, 169);
             this.txt_itemName.Margin = new System.Windows.Forms.Padding(4);
             this.txt_itemName.Name = "txt_itemName";
             this.txt_itemName.Size = new System.Drawing.Size(675, 22);
@@ -145,7 +145,7 @@
             // 
             // txt_qty
             // 
-            this.txt_qty.Location = new System.Drawing.Point(104, 230);
+            this.txt_qty.Location = new System.Drawing.Point(46, 231);
             this.txt_qty.Margin = new System.Windows.Forms.Padding(4);
             this.txt_qty.Name = "txt_qty";
             this.txt_qty.Size = new System.Drawing.Size(132, 22);
@@ -153,7 +153,7 @@
             // 
             // txt_price
             // 
-            this.txt_price.Location = new System.Drawing.Point(267, 230);
+            this.txt_price.Location = new System.Drawing.Point(235, 231);
             this.txt_price.Margin = new System.Windows.Forms.Padding(4);
             this.txt_price.Name = "txt_price";
             this.txt_price.Size = new System.Drawing.Size(132, 22);
@@ -163,7 +163,7 @@
             // lbl_qty
             // 
             this.lbl_qty.AutoSize = true;
-            this.lbl_qty.Location = new System.Drawing.Point(101, 197);
+            this.lbl_qty.Location = new System.Drawing.Point(43, 203);
             this.lbl_qty.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_qty.Name = "lbl_qty";
             this.lbl_qty.Size = new System.Drawing.Size(55, 16);
@@ -173,7 +173,7 @@
             // lbl_price
             // 
             this.lbl_price.AutoSize = true;
-            this.lbl_price.Location = new System.Drawing.Point(264, 197);
+            this.lbl_price.Location = new System.Drawing.Point(232, 197);
             this.lbl_price.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_price.Name = "lbl_price";
             this.lbl_price.Size = new System.Drawing.Size(38, 16);
@@ -378,7 +378,7 @@
             // 
             // tb_srch
             // 
-            this.tb_srch.Location = new System.Drawing.Point(47, 4);
+            this.tb_srch.Location = new System.Drawing.Point(360, 4);
             this.tb_srch.Margin = new System.Windows.Forms.Padding(4);
             this.tb_srch.Name = "tb_srch";
             this.tb_srch.Size = new System.Drawing.Size(205, 22);
@@ -398,8 +398,6 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.pictureBox1);
-            this.groupBox2.Controls.Add(this.tb_srch);
             this.groupBox2.Location = new System.Drawing.Point(1012, 0);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
@@ -411,7 +409,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(8, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(573, 1);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(39, 25);
@@ -438,7 +436,9 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.CancelButton = this.btn_cancel;
             this.ClientSize = new System.Drawing.Size(1273, 554);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.tb_srch);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.btn_srch);
             this.Controls.Add(this.lbl_search);
@@ -473,8 +473,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

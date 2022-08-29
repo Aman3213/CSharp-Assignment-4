@@ -94,9 +94,9 @@
             // card1
             // 
             this.card1.Location = new System.Drawing.Point(27, 13);
-            this.card1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.card1.Margin = new System.Windows.Forms.Padding(4);
             this.card1.Name = "card1";
-            this.card1.ProductNames = null;
+            this.card1.ProductNames = "Dell Laptop 15\'\'";
             this.card1.Size = new System.Drawing.Size(296, 185);
             this.card1.TabIndex = 2;
             // 
